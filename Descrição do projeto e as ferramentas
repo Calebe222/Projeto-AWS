@@ -1,0 +1,54 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 15/01/2024
+Empresa: Abstergo Industries 
+Responsável: Calebe Iles Brasil de Freitas 
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Calebe de Freitas pelo projeto. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Amazon EC2 Spot Instances
+
+- Descrição: O Amazon EC2 Spot Instances permite que você aproveite a capacidade não utilizada da AWS, permitindo que você adquira instâncias de computação com desconto.
+
+- Benefícios: Os Spot Instances podem ser até 90% mais baratos em comparação com instâncias On-Demand. Ideal para cargas de trabalho tolerantes a interrupções, como processamento em lote, análises e renderização.
+
+Caso de Uso: Processamento de Lote
+Descrição: Imagine que a empresa tem a necessidade de processar grandes volumes de dados periodicamente, como análises de dados, geração de relatórios ou renderização de vídeos. Utilizando o EC2 Spot Instances, a empresa pode provisionar instâncias de forma econômica durante os períodos de menor demanda, aproveitando a capacidade ociosa da AWS. Isso resulta em significativa redução de custos em comparação com a utilização de instâncias On-Demand para essas tarefas intermitentes.
+
+Etapa 2: 
+- AWS Lambda:
+
+- Descrição: AWS Lambda é um serviço de computação sem servidor que permite executar código sem a necessidade de provisionar ou gerenciar servidores.
+
+- Benefícios: Pague apenas pelo tempo de computação real, sem custos fixos associados a servidores tradicionais. Ideal para cargas de trabalho intermitentes ou tarefas simples que podem ser executadas de forma eficiente sem uma infraestrutura dedicada
+
+Caso de Uso: Automação de Tarefas
+Descrição: A empresa pode usar o AWS Lambda para automatizar tarefas repetitivas, como processamento de logs, atualizações de banco de dados ou notificações. Por exemplo, ao receber um novo arquivo em um bucket do Amazon S3, um gatilho Lambda pode ser configurado para processar automaticamente esse arquivo, realizar ações específicas e, em seguida, desativar, eliminando a necessidade de manter instâncias permanentemente ativas. Isso resulta em economia de custos, pois a empresa paga apenas pelos recursos computacionais utilizados durante a execução das funções.
+
+Etapa 3: 
+- Amazon S3 - Armazenamento de Níveis de Acesso:
+
+- Descrição: Amazon S3 (Simple Storage Service) é um serviço de armazenamento escalável na nuvem. O armazenamento de Níveis de Acesso permite que você mova automaticamente os dados entre classes de armazenamento para otimizar custos.
+
+- Benefícios: Armazene dados mais antigos em classes de armazenamento mais baratas, reduzindo os custos de armazenamento. O S3 gerencia automaticamente a transição entre as classes de armazenamento, mantendo a acessibilidade
+
+Caso de Uso: Gerenciamento Eficiente de Dados
+Descrição: Suponha que a empresa tenha um grande conjunto de dados, sendo que apenas uma parte desses dados é frequentemente acessada. Utilizando o Amazon S3 e seu recurso de Armazenamento de Níveis de Acesso, os dados mais antigos e menos acessados podem ser movidos automaticamente para classes de armazenamento mais baratas, como o Amazon S3 Glacier, enquanto os dados mais recentes e frequentemente acessados permanecem em classes mais caras, como o Amazon S3 Standard. Isso resulta em economias significativas de custos de armazenamento ao longo do tempo, sem comprometer a acessibilidade aos dados.
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa  tem como esperado [benefícios das ferramentas]*, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## Anexos
+
+[lista de anexos, como manuais, documentos, planilhas, entre outros]
+
+Calebe Iles Brasil de Freitas 
+
+Calebe Iles Brasil de Freitas 
